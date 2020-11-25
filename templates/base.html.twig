@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Ex>Misha{% endblock %}</title>
+        {% block stylesheets %}
+            {{ encore_entry_link_tags('app') }}
+        {% endblock %}
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-inverse" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="btn btn-default lft wobble-vertical"><a href="">home</a></li>
+                            <li class="btn btn-default lft wobble-vertical"><a href="/about">about</a></li>
+                            <li class="btn btn-default rgt wobble-vertical"><a href="/gallery">gallery</a></li>
+                            <li class="btn btn-default lft wobble-vertical"><a href="/media">media</a></li>
+                            <li class="btn btn-default rgt wobble-vertical"><a href="/releases">releases</a></li>
+                            <li class="btn btn-default lft wobble-vertical"><a href="/contact">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        {% block body %}
+            <div id="fb-root"></div>
+            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=1078184995561188&autoLogAppEvents=1" nonce="ZO3kV7Yd"></script>
+            <div class="container">
+                <div class="row">
+                    <h1>Ex>Misha</h1>
+                    {% block content %}{% endblock %}
+                </div>
+            </div>
+        {% endblock %}
+        {% block javascripts %}
+            {{ encore_entry_script_tags('app') }}
+        {% endblock %}
+    </body>
+</html>

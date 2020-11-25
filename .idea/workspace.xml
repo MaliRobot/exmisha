@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0c349f3-5d41-4a0a-abcf-d191bc4ca1b9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/exmisha/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/exmisha/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/ocramius/proxy-manager" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/composer" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/webpack-encore-bundle" />
+      <path value="$PROJECT_DIR$/exmisha/vendor/symfony/apache-pack" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1klCCSydkGWljzuseZsUdNZ1SZK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0c349f3-5d41-4a0a-abcf-d191bc4ca1b9" name="Default Changelist" comment="" />
+      <created>1606265663817</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1606265663817</updated>
+      <workItem from="1606265664866" duration="4442000" />
+      <workItem from="1606304231391" duration="7095000" />
+      <workItem from="1606313521293" duration="34000" />
+      <workItem from="1606313731448" duration="858000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="739" y="243" key="NewPhpClassDialog" timestamp="1606267432059">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1606267432059" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1606306284532">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1606306284532" />
+  </component>
+</project>
