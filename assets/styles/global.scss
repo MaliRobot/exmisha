@@ -17,6 +17,25 @@ body {
   font-size: 62.5%;
   font-size: 10px;
 }
+
+header {
+  position: absolute;
+  z-index: 100;
+}
+
+main {
+  padding-top: 25em;
+  padding-bottom: 6em;
+}
+
+footer {
+  height: 20vh;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  color: white;
+}
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
@@ -342,4 +361,17 @@ body {
   background-color: #111;
 }
 
+/** News **/
+.news {
+    text-align: center;
+}
 
+.news h2 {
+  color: white;
+}
+
+.news-block {
+  color: white;
+}
+
+/** end News **/

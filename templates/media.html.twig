@@ -1,0 +1,32 @@
+{% extends "base.html.twig" %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <img src="{{ asset('/build/images/sounds.png') }}" title="sounds" alt="zvuci" width="200">
+                <p class="media" id="media-text"><?php echo $lang['soundcloud'] ?></p>
+                <iframe width="450" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/8152970&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+                <p class="media" id="media-text"><?php echo $lang['BICE'] ?></p>
+                <iframe style="border: 0; width: 450px; height: 450px;" src="https://bandcamp.com/EmbeddedPlayer/album=1482725373/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless><a href="http://exmisha.bandcamp.com/album/bi-e-sme-no">Biće smešno by Ex&gt;Misha</a></iframe>
+                <p class="media" id="media-text"><?php echo $lang['DOMA'] ?></p>
+                <iframe width="450" height="450" style="border: 0" src="https://bandcamp.com/EmbeddedPlayer/album=4031710425/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://exmisha.bandcamp.com/album/doma-i-album">Domaći album by Ex&gt;Misha</a></iframe>
+                <p class="media" id="media-text"><?php echo $lang['IFY'] ?></p>
+                <iframe width="450" height="450" style="border: 0" src="https://bandcamp.com/EmbeddedPlayer/album=2664191501/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://exmisha.bandcamp.com/album/if-you-dont-know-me-by-now">If You Don&#39;t Know Me By Now by Ex&gt;Misha</a></iframe>
+            </div>
+
+            <div class="col-12 col-lg-6">
+                <img src="{{ asset('/build/images/videos.png') }}" title="videos" alt="spotovi" width="200">
+                <p class="media" id="media-text">Agent promene</p>
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/LePRcrbmDWE" frameborder="0" allowfullscreen></iframe>
+                <p class="media" id="media-text">Bolja</P>
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/yCG3BLWBOsU" frameborder="0" allowfullscreen></iframe>
+                <p class="media" id="media-text">Mjau</P>
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/4JndzhzVgvU" frameborder="0" allowfullscreen></iframe>
+                <p class="media" id="media-text">Sto posto stran</p>
+                <iframe width="450" height="300" src="https://www.youtube.com/embed/uJ5_THDBkxI?list=UUypn-KMzbdRoZ6lRR1eSUKQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -72,6 +72,7 @@ Encore
 
     .copyFiles({
         from: './assets/images',
+        to: '/images/[name].[ext]'
 
         // optional target path, relative to the output dir
         //to: 'images/[path][name].[ext]',

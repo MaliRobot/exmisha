@@ -1,0 +1,36 @@
+{% extends "base.html.twig" %}
+
+
+{% block content %}
+    <div class="container">
+        <div class="row about">
+            <div class="entry">
+                <!-- Blog Post Content Column -->
+                <div class="col-lg-10 col-md-offset-1">
+
+                    <!-- Blog Post -->
+
+                    <!-- Title -->
+                    <h2>{% trans %}About{% endtrans %}</h2>
+
+                    <!-- Author -->
+                    <p class="lead">
+                        Something about me...
+                    </p>
+
+                    <hr>
+
+                    <!-- Preview Image -->
+                    <img class=" col-12 img-responsive ab-img" src="{{ asset('/build/images/terasa.jpg') }}" alt="">
+
+                    <hr>
+
+                    <!-- Post Content -->
+                    <div class="blog">
+                        <p>There now...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

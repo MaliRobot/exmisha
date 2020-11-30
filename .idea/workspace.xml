@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c349f3-5d41-4a0a-abcf-d191bc4ca1b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Service/NewsService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/about.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/media.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/releases.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/messages.sr.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,7 +151,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,6 +164,12 @@
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\exmisha\src\Service" />
+      <recent name="C:\wamp64\www\exmisha\templates" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -165,7 +181,10 @@
       <workItem from="1606265664866" duration="4442000" />
       <workItem from="1606304231391" duration="7095000" />
       <workItem from="1606313521293" duration="34000" />
-      <workItem from="1606313731448" duration="7173000" />
+      <workItem from="1606313731448" duration="7501000" />
+      <workItem from="1606323272663" duration="265000" />
+      <workItem from="1606324024251" duration="92000" />
+      <workItem from="1606737543981" duration="16095000" />
     </task>
     <servers />
   </component>
@@ -173,10 +192,14 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="739" y="243" key="NewPhpClassDialog" timestamp="1606267432059">
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606751211796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="739" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1606267432059" />
+    <state x="690" y="275" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1606751211796" />
+    <state x="739" y="243" key="NewPhpClassDialog" timestamp="1606744413682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="243" key="NewPhpClassDialog/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1606744413682" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1606306284532">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

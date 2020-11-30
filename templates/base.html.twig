@@ -16,11 +16,10 @@
                     </div>
                     <div id="mainListDiv" class="main_list">
                         <ul class="navlinks">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Media</a></li>
-                            <li><a href="#">Releases</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/">Home</a></li>
+                            <li><a href="{{ path('media') }}">Media</a></li>
+                            <li><a href="{{ path('releases') }}">Releases</a></li>
+                            <li><a href="{{ path('about') }}">About</a></li>
                         </ul>
                     </div>
                     <span class="navTrigger">
@@ -42,21 +41,19 @@
                     }
                 });
             </script>
-
-            <h1>Ex>Misha</h1>
         </header>
         {% block body %}
             <div id="fb-root"></div>
             <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=1078184995561188&autoLogAppEvents=1" nonce="ZO3kV7Yd"></script>
-            <div class="container">
-                <div class="row">
-                    <h1>Ex>Misha</h1>
-                    {% block content %}{% endblock %}
-                </div>
-            </div>
+            <main>
+                {% block content %}{% endblock %}
+            </main>
         {% endblock %}
         {% block javascripts %}
             {{ encore_entry_script_tags('app') }}
         {% endblock %}
+        <footer>
+            Ex>Misha 2020
+        </footer>
     </body>
 </html>
