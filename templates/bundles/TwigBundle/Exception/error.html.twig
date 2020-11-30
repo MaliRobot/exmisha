@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <main>
+        <div class="col-12 error-page">
+            <h1>Something went wrong</h1>
+
+            <p>
+                There was a problem. Try going back to <a href="{{ path('index') }}">the homepage</a> or
+                try again later.
+            </p>
+        </div>
+    </main>
+
+{% endblock %}

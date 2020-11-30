@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0c349f3-5d41-4a0a-abcf-d191bc4ca1b9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception/error.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bundles/TwigBundle/Exception/error404.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/media.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/media.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/event/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/media/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/news/index.html.twig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/releases/index.html.twig" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +178,7 @@
       <workItem from="1606313731448" duration="7501000" />
       <workItem from="1606323272663" duration="265000" />
       <workItem from="1606324024251" duration="92000" />
-      <workItem from="1606737543981" duration="17159000" />
+      <workItem from="1606737543981" duration="18002000" />
     </task>
     <servers />
   </component>
