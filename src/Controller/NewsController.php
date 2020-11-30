@@ -23,6 +23,10 @@ class NewsController extends AbstractController
 
     /**
      * @Route("/api/news/", name="import_news", methods={"POST"})
+     *
+     * @param Request $request
+     * @return JsonResponse
+     * @throws \Exception
      */
     public function add(Request $request): JsonResponse
     {

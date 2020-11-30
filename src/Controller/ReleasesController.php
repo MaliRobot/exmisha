@@ -33,6 +33,9 @@ class ReleasesController extends AbstractController
      *         "_locale": "en"
      *     }
      * )
+     *
+     * @param AlbumService $albumService
+     * @return Response
      */
     public function index(AlbumService $albumService): Response
     {
