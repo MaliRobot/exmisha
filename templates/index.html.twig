@@ -5,14 +5,26 @@
     <div class="container">
         <div class="row">
             <section class="col-12 news">
-                <h2>News</h2>
-                {% for new in news %}
-                    <div class="news-block">
-                        <h3 class="news-title col-12">{{ new.title }}</h3>
-                        <div class="news-date col-12">{{ new.datePublished|date("d M Y") }}</div>
-                        <p class="news-text col-12">{{ new.text }}</p>
+                <h2>NEWS</h2>
+                <hr class="col-12" />
+                <div class="container-fluid">
+                    <div class="row">
+                        {% for new in news %}
+                            {% if loop.index == 1 %}
+                            <div class="news-block col-12">
+                            {% else %}
+                            <div class="news-block col-xs-12 col-sm-6 col-md-3">
+                            {% endif %}
+                                <h3 class="news-title">{{ new.title }}</h3>
+                                <div class="news-date">{{ new.datePublished|date("d M Y") }}</div>
+                                <p class="news-text">{{ new.text }}</p>
+                            </div>
+                            {% if loop.index == 1 %}
+                            <hr class="col-12" />
+                            {% endif %}
+                        {% endfor %}
                     </div>
-                {% endfor %}
+                </div>
                 <div>
                     {{ knp_pagination_render(news) }}
                 </div>

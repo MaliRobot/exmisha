@@ -24,7 +24,7 @@ header {
 }
 
 main {
-  padding-top: 25em;
+  padding-top: 12em;
   padding-bottom: 6em;
 }
 
@@ -36,10 +36,24 @@ h1,h2,h3,h4,h5,h6,p {
   color: white;
 }
 
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
 /* Navbar section */
+
+#main-menu {
+  background-color: rgba(170, 51, 51, 0.7);
+  height: 7em;
+}
 
 .nav {
   width: 100%;
@@ -363,7 +377,9 @@ h1,h2,h3,h4,h5,h6,p {
 
 /** News **/
 .news {
-    text-align: center;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
 }
 
 .news h2 {
@@ -372,6 +388,14 @@ h1,h2,h3,h4,h5,h6,p {
 
 .news-block {
   color: white;
+}
+
+.news-title {
+  font-size: 2em;
+}
+
+.news-text {
+  font-size: 1.4em;
 }
 
 /** end News **/
@@ -387,3 +411,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 /** end error pages **/
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  color: white;
+}
