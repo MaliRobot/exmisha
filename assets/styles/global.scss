@@ -45,6 +45,24 @@ hr {
   padding: 0;
 }
 
+.first a,
+.previous a,
+.page a,
+.next a,
+.last a {
+  color: #cce0ff;
+  text-decoration: none;
+}
+
+.first a:hover,
+.previous a:hover,
+.page a:hover,
+.next a:hover,
+.last a:hover {
+  color: #5eb5e0;
+}
+
+
 /*-- Inspiration taken from abdo steif -->
 /* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
@@ -109,7 +127,7 @@ hr {
 }
 
 .nav div.main_list ul li a:hover {
-  color: #00E676;
+  color: #54c2f5;
 }
 
 
@@ -120,6 +138,7 @@ hr {
 }
 
 .nav {
+  height: 90px;
   padding-top: 20px;
   padding-bottom: 20px;
   -webkit-transition: all 0.4s ease;
@@ -377,25 +396,41 @@ hr {
 
 /** News **/
 .news {
-  text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
 .news h2 {
   color: white;
+  padding: 0;
 }
 
 .news-block {
+  padding: 0;
   color: white;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
 }
 
 .news-title {
+  padding-left: 7px;
   font-size: 2em;
+  font-weight: 600;
+  color: black;
+  background-color: white;
+}
+
+.news-date {
+  padding-left: 7px;
 }
 
 .news-text {
   font-size: 1.4em;
+  margin: 6px;
+}
+
+.news-break {
+  height: 2em;
 }
 
 /** end News **/
@@ -413,8 +448,16 @@ hr {
 /** end error pages **/
 
 .pagination {
-  display: flex;
-  justify-content: center;
   font-size: 2em;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    background-color: rgba(170, 51, 51, 0.7);
+  }
+
+  #main-menu {
+    background-color: unset;
+  }
 }
