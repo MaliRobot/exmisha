@@ -28,6 +28,43 @@
                     {{ knp_pagination_render(news) }}
                 </div>
             </section>
+            <section class="col-12 events">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-md-6">
+                            <h2>EVENTS</h2>
+                            <hr class="col-12" />
+                            {% for event in events %}
+                                <div class="events-block col-12">
+                                    <h3 class="events-title">{{ event.name }}</h3>
+                                    <div class="events-date">
+                                        {{ event.start|date("d M Y H:i") }}
+                                        {% if event.end %}
+                                            - {{ event.end|date("d M Y H:i") }}
+                                        {% endif %}
+                                    </div>
+                                    {% if event.address %}
+                                        <div class="events-location">
+                                            {{ event.address }}
+                                            {% if event.city %}
+                                                , {{ event.city }}
+                                            {% endif %}
+                                        </div>
+                                    {% endif %}
+                                    <p class="events-text">{{ event.description }}</p>
+                                </div>
+                                <div class="events-break col-12"></div>
+                            {% endfor %}
+                        </div>
+                        <div class="col-xs-12 col-md-6">
+
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    {{ knp_pagination_render(events) }}
+                </div>
+            </section>
         </div>
     </div>
 {% endblock %}

@@ -395,24 +395,31 @@ hr {
 }
 
 /** News **/
-.news {
+.news,
+.events {
   padding-top: 2em;
   padding-bottom: 2em;
 }
 
-.news h2 {
+.news h2,
+.events h2
+{
   color: white;
   padding: 0;
 }
 
-.news-block {
+.news-block,
+.events-block
+{
   padding: 0;
   color: white;
   background-color: rgb(0,0,0);
   background-color: rgba(0,0,0, 0.4);
 }
 
-.news-title {
+.news-title,
+.events-title
+{
   padding-left: 7px;
   font-size: 2em;
   font-weight: 600;
@@ -420,16 +427,23 @@ hr {
   background-color: white;
 }
 
-.news-date {
+.news-date,
+.events-date,
+.events-location
+{
   padding-left: 7px;
 }
 
-.news-text {
+.news-text,
+.events-text
+{
   font-size: 1.4em;
   margin: 6px;
 }
 
-.news-break {
+.news-break,
+.events-break
+{
   height: 2em;
 }
 

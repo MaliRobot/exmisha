@@ -3,11 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="e0c349f3-5d41-4a0a-abcf-d191bc4ca1b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/global.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/global.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Admin/AlbumCrudController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/Admin/AlbumCrudController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/AlbumService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/AlbumService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service/NewsService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service/NewsService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/about.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/releases.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/releases.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +145,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Service" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -157,8 +160,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\exmisha\templates\pagination" />
       <recent name="C:\wamp64\www\exmisha\src\Service" />
+      <recent name="C:\wamp64\www\exmisha\templates\pagination" />
       <recent name="C:\wamp64\www\exmisha\templates" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -189,7 +192,8 @@
       <workItem from="1611135245276" duration="74000" />
       <workItem from="1611157632214" duration="7474000" />
       <workItem from="1611224209225" duration="18000" />
-      <workItem from="1611311486363" duration="2571000" />
+      <workItem from="1611311486363" duration="3617000" />
+      <workItem from="1612362641103" duration="9087000" />
     </task>
     <servers />
   </component>
